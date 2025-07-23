@@ -5,8 +5,9 @@ langchain-core
 ipykernel
 
 # Groq Integration
-langchain-groq
 groq
+langchain-groq
+
 
 # OpenAI Integration
 langchain-openai

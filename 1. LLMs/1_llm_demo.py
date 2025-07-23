@@ -1,9 +1,20 @@
-from langchain_openai import OpenAI
-from dotenv import load_dotenv
+# from langchain_openai import OpenAI
 
+from dotenv import load_dotenv
+import os
+from langchain_groq import ChatGroq
+
+# Load environment variables from .env file
 load_dotenv()
 
-llm = OpenAI(model = "gpt-3.5-turbo-instruct")
+# Get API key
+api_key = os.getenv('GROQ_API_KEY')
 
-result = llm.invoke("what is the capital of India?")
-print(result)
+# Initialize the LLM
+llm = ChatGroq(model="llama-3.1-8b-instant", api_key=api_key)
+
+# Invoke the model
+result = llm.invoke("What is the capital of India?")
+
+# Print the response
+print(result.content)
