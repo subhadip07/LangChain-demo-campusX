@@ -2,6 +2,12 @@
 langchain
 langchain-core
 
+ipykernel
+
+# Groq Integration
+langchain-groq
+groq
+
 # OpenAI Integration
 langchain-openai
 openai
