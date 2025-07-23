@@ -4,4 +4,21 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "google-generativeai>=0.8.5",
+    "groq>=0.30.0",
+    "huggingface-hub>=0.33.4",
+    "ipykernel>=6.30.0",
+    "langchain>=0.3.26",
+    "langchain-anthropic>=0.3.17",
+    "langchain-core>=0.3.71",
+    "langchain-google-genai>=2.0.10",
+    "langchain-groq>=0.3.6",
+    "langchain-huggingface>=0.3.1",
+    "langchain-openai>=0.3.28",
+    "numpy>=2.3.1",
+    "openai>=1.97.1",
+    "python-dotenv>=1.1.1",
+    "scikit-learn>=1.7.1",
+    "transformers>=4.53.3",
+]
