@@ -4,6 +4,7 @@ langchain-core
 ipykernel
 langchain-community
 
+langchain-ollama
 # Groq Integration
 groq
 langchain-groq
